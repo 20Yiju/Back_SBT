@@ -1,7 +1,8 @@
 import { NFTStorage, File } from "nft.storage";
 import fs from "fs";
 
-const apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweEE5OTBiNzIyQzBjNDUwMWU2ODkzRDNiZWFkNUU5RDU4MzQzNWQxOEUiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY3MzQyNTQ0NzUyNiwibmFtZSI6InRlc3QifQ.ix1siwq6omSU9gqLePV1AYq5HOWXEXzZ95EBP8_lWSM";
+const apiKey = "nft storage 에서 생성한 api key";
+
 const client = new NFTStorage({ token: apiKey });
 
 const a = "Homework";
