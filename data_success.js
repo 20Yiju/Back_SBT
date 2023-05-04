@@ -3,8 +3,8 @@ import { Buffer } from 'buffer';
 const img = require("./Eat.png");
 
 export async function tokenOffering(courseName, section, type, tokenName, totalScore) {
-  const projectId = '2PKNbqRWAqBWGvWrflkFT9uZmG3';
-  const projectSecret = '1167a7d29f2e9a311a0b154f9cac6241';
+  const projectId = 'api key';
+  const projectSecret = 'api key secrete';
   const ipfs = create({
         host: 'ipfs.infura.io',
         port: 5001,
